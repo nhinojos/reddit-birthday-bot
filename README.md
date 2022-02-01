@@ -1,2 +1,2 @@
-# Reddit-Bot
-First Project, Reddit bot
+# Reddit-Birthdate-Bot
+Uses Python to wish commenters Happy Birthday on Reddit, according to the age of their profile account.  
