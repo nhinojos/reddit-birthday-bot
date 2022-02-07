@@ -4,13 +4,13 @@ from datetime import datetime
 
 #Reddit API Information
 reddit = praw.Reddit(
-    client_id="", #omitted for privacy
-    client_secret="", #omitted for privacy
+    client_id="", #API token ID.
+    client_secret="", #API token secret code.
     user_agent="my user agent", 
-    username="robot-7777",
-    password='' #omitted for privacy
+    username="", #reddit account username.
+    password="" #reddit account password.
 )
-#Choosing subreddit r/technology
+#Choosing subreddit r/technology. This can be changed to any subreddit. 
 subreddit=reddit.subreddit('technology')
 
 #Present-Date Numerical Values
@@ -50,4 +50,3 @@ for post in subreddit.hot(limit=10):
                     #Wishes Happy birthday, then sleeps
                     comment.reply(response)
                     time.sleep(600)
-
