@@ -1,10 +1,10 @@
-# DReddit Bot Happy Birthday
+# Reddit Bot Happy Birthday
 ### Goal
 Wishes reddit accounts happy birthday based on the age of the account.
 
 ### Criteria
 - Scans through comments sections under any posts on any subreddit. 
-- Comments 'Happy Cake-Day [username]!' under a user's comment on the post. (In reddit culture, an account's birthday is often called their 'cake day').
+- Comments 'Happy Cake-Day [username]!' under a user's comment on the post. (In reddit culture, an account's birthday is often referred to as their 'cake day').
 - Also congratualtes user on their account's age. 
 
 ### Method & Results
