@@ -8,6 +8,6 @@ Wishes Reddit users happy birthday based on the account's age.
 - Also congratualtes user on their account's age. 
 
 ### Method & Results
-This program calls Reddit's API using Reddit's own python wrapper PRAW. It crawls through the top ten posts any subreddit (I chose r/technology), and subsequtnly crawls though the entire comment section. If it finds a user whose Reddit account was created on the same month and day as the time this program is ran, then is wishes happy birthday as a comment on their comment. Unexpectedly, Reddit provides users' ages in UNIX format, which is challenging to read and process. I resolved this by converting it to GME format using the datetime library.
+This program calls Reddit's API using Reddit's own python wrapper PRAW. It crawls through the top ten posts on any subreddit (I defaulted r/technology), and subsequtnly crawls though the entire comment section. If it finds a user whose Reddit account was created on the same month and day as the present, then is comments happy birthday to the user. Unexpectedly, Reddit provides users' ages in UNIX format, which is challenging to read and process. I resolved this by converting it to GME format using the datetime library.
 
-I added detailed comments for anyone to change the subreddit of choice easily, or, input their own account credentials to wish redditors happy birthday. 
+I added detailed comments for anyone who would like to change the subreddit of choice easily as well as input their own credentials to wish redditors happy birthday. 
